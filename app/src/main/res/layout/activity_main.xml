@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:chart="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.dzzchao.columnchartdemo.ColumnChartView
+        android:id="@+id/my_single_chart_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        chart:color="#cb70fa"
+        chart:colorBottom="#5d26da"
+        chart:xycolor="#5d26da" />
+
+
+</RelativeLayout>
